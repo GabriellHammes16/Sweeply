@@ -40,3 +40,12 @@ jobs:
           uploadUpdaterJson: true
           updaterJsonPreferNsis: true
           args: --bundles nsis
+      - name: Finalize public updater download URLs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release view $env:GITHUB_REF_NAME --json tagName,assets > release-assets.json
+          gh release download $env:GITHUB_REF_NAME --pattern latest.json --dir updater-manifest
+          node scripts/finalize-updater.mjs updater-manifest/latest.json release-assets.json
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          gh release upload $env:GITHUB_REF_NAME updater-manifest/latest.json --clobber
