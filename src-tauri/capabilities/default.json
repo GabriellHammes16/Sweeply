@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main",
+  "description": "Somente a janela local; sem plugins de shell, HTTP ou filesystem.",
+  "windows": ["main"],
+  "permissions": ["core:default"]
+}
