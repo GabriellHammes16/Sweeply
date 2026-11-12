@@ -2,7 +2,7 @@
 
 **Seu PC, mais leve.** Aplicativo gratuito e local para entender e cuidar de computadores Windows 10 e 11. Licença MIT.
 
-Versão **0.1.0 — prévia de desenvolvimento**. A primeira entrega implementa a fundação, o design system e um conjunto limitado de serviços nativos reais. Não é uma versão final de manutenção do Windows. Veja a apresentação com imagens no [README](../README.md).
+Versão **1.0.0**. A primeira release reúne análise de armazenamento, limpeza revisada, monitoramento e atalhos oficiais. Os limites de segurança e de validação descritos abaixo continuam aplicáveis. Veja a apresentação com imagens no [README](../README.md).
 
 ## Executar
 

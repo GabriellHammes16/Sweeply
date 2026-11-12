@@ -14,15 +14,15 @@ Após revisar o commit local e as imagens:
 
 ```powershell
 git push -u origin main
-git tag v0.1.0
-git push origin v0.1.0
+git tag v1.0.0
+git push origin v1.0.0
 ```
 
 Espere o workflow **Signed Windows release** terminar. Em Releases, revise o rascunho, as notas e os anexos: instalador `setup.exe`, assinatura `.sig` e manifesto `latest.json`. Teste o instalador em Windows de teste antes de publicar. Uma versão ausente ou um rascunho não gera aviso no aplicativo.
 
 ## Próximas versões
 
-Atualize a mesma versão em `package.json`, `package-lock.json`, `src-tauri/Cargo.toml`, `src-tauri/Cargo.lock` e `src-tauri/tauri.conf.json`. Execute as verificações do README e `npm run release:check -- v0.2.0`, substituindo pela versão escolhida. Envie o commit e a tag correspondente. Não reutilize tags nem substitua anexos já publicados.
+Atualize a mesma versão em `package.json`, `package-lock.json`, `src-tauri/Cargo.toml`, `src-tauri/Cargo.lock` e `src-tauri/tauri.conf.json`. Execute as verificações do README e `npm run release:check -- v1.0.1`, substituindo pela versão escolhida. Envie o commit e a tag correspondente. Não reutilize tags nem substitua anexos já publicados.
 
 O app consulta o manifesto ao abrir (após 3 segundos) e a cada 6 horas, quando a preferência está ativa. Mostra aviso com botão **Atualizar**; só baixa e instala após confirmação. A assinatura também vincula o pacote à versão anunciada. A instalação é bloqueada enquanto uma análise/limpeza detém o bloqueio de manutenção. A instalação fecha o app e descarta análises da sessão; o usuário reabre o aplicativo depois, se o instalador não o abrir.
 
