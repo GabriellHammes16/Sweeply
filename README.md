@@ -110,7 +110,6 @@ O workflow de release gera instaladores NSIS e o manifesto do atualizador a part
 | [Operação e segurança](docs/operation.md) | Pastas analisadas, critérios de limpeza e limites de uso. |
 | [Arquitetura](docs/architecture.md)       | Backend Rust, contratos IPC e validações.                 |
 | [Design system](docs/design-system.md)    | Identidade, componentes, temas e acessibilidade.          |
-| [Estado e verificações](docs/status.md)   | Testes executados e pendências de validação.              |
 | [Contribuição](CONTRIBUTING.md)           | Orientações para alterações e testes.                     |
 
 ## Licença

@@ -44,4 +44,4 @@ Lucide, espessura consistente e tamanhos 16–24 px; sem logos de terceiros dese
 
 Foco visível, skip link, controles nativos, nomes nos botões de ícones, modal com Escape/foco contido, tabela semântica, labels nos campos e paths do sunburst operáveis com Enter/Espaço. O modo claro ajusta as cores de texto e métricas. Animações de 150–200 ms; a preferência de movimento reduzido do sistema prevalece. O usuário pode desativá-las nas configurações.
 
-Telas adaptáveis, com navegação compacta abaixo de 900 px. A janela desktop tem mínimo de 760×600; a prévia web também se reorganiza em telas menores. As verificações e eventuais limites estão em `status.md`.
+Telas adaptáveis, com navegação compacta abaixo de 900 px. A janela desktop tem mínimo de 760×600; a prévia web também se reorganiza em telas menores. Consulte os limites de uso em [Operação e segurança](operation.md).

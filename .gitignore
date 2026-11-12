@@ -17,3 +17,26 @@ test-results/
 src-tauri/gen/
 .DS_Store
 Thumbs.db
+
+# Local project notes and agent/editor state
+/docs/brief.md
+/docs/status.md
+/docs/references.md
+/.agents/
+/.codex/
+/.claude/
+/.idea/
+/.vscode/
+*.dmp
+
+# Only the Windows icons used by the app and installer
+/src-tauri/icons/*
+!/src-tauri/icons/32x32.png
+!/src-tauri/icons/128x128.png
+!/src-tauri/icons/128x128@2x.png
+!/src-tauri/icons/icon.ico
+!/src-tauri/icons/icon.png
+
+# Temporary release workflow files
+/release-assets.json
+/updater-manifest/

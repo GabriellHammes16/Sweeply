@@ -68,7 +68,4 @@ O instalador NSIS é gerado em `src-tauri/target/release/bundle/nsis/`; o execut
 - `src-tauri/src/`: monitoramento, armazenamento, limpeza e atalhos tipados.
 - [Identidade e design system](design-system.md).
 - [Arquitetura e limites](architecture.md).
-- [Estado das fases e verificação](status.md).
 - [Contribuição](../CONTRIBUTING.md).
-
-Referências visuais fornecidas: SWE-006, SWE-009, SWE-014, SWE-015, SWE-016, SWE-017 e SWE-018, localizadas no projeto Neo Stitch. Elas orientam a interface; os números ilustrativos das imagens não são utilizados como métricas.
