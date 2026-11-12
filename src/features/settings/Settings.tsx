@@ -154,7 +154,7 @@ export function Settings({
         <div className="about">
           <Logo wordmark />
           <span>
-            {appVersion} · Prévia de desenvolvimento
+            {appVersion} · Windows 10 / 11
             <br />
             <small>Gratuito · Código aberto · Licença MIT</small>
           </span>

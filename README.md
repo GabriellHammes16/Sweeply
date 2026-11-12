@@ -16,7 +16,7 @@ análise de armazenamento e acompanhamento de desempenho em um só lugar.
 ![Tauri](https://img.shields.io/badge/desktop-Tauri%202-70bca3?style=flat-square)
 ![React](https://img.shields.io/badge/interface-React%2019-88b6d8?style=flat-square)
 ![MIT](https://img.shields.io/badge/licença-MIT-70bca3?style=flat-square)
-![Status](https://img.shields.io/badge/status-prévia%200.1.0-d7b785?style=flat-square)
+![Status](https://img.shields.io/badge/versão-1.0.0-d7b785?style=flat-square)
 
 <br />
 
@@ -26,7 +26,7 @@ análise de armazenamento e acompanhamento de desempenho em um só lugar.
 
 <img src="docs/images/cleanup.png" width="100%" alt="Sweeply no Windows: seleção de pastas temporárias e etapas de análise, revisão e limpeza" />
 
-<sub>Captura real do aplicativo desktop. Prévia de desenvolvimento, em português do Brasil.</sub>
+<sub>Captura real do aplicativo desktop. Interface em português do Brasil.</sub>
 
 </div>
 
@@ -60,7 +60,7 @@ A verificação vem ativada por padrão e pode ser desativada nas configuraçõe
 
 ## Baixar
 
-Consulte [Releases](https://github.com/GabriellHammes16/Sweeply/releases) e escolha o instalador `setup.exe` quando a primeira versão for publicada. **Ainda não há uma release publicada nesta preparação inicial.** O código está na versão **0.1.0, prévia de desenvolvimento**.
+Baixe o instalador **Sweeply 1.0.0** em [Releases](https://github.com/GabriellHammes16/Sweeply/releases/latest). Execute o arquivo `setup.exe` e siga as etapas de instalação.
 
 Requisitos de uso: Windows 10/11 x64 e Microsoft Edge WebView2 Runtime. O instalador pode baixar o WebView2 se faltar. O EXE isolado ainda precisa de validação em Windows limpo; os builds não têm certificado Authenticode do Windows.
 

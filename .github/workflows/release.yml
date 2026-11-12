@@ -34,7 +34,7 @@ jobs:
         with:
           tagName: ${{ github.ref_name }}
           releaseName: Sweeply v__VERSION__
-          releaseBody: "Baixe o instalador setup.exe abaixo. Prévia para Windows 10/11 x64. Consulte o README antes da limpeza."
+          releaseBody: "Baixe o instalador setup.exe abaixo. Para Windows 10/11 x64. Consulte o README antes da limpeza."
           releaseDraft: true
           prerelease: false
           uploadUpdaterJson: true
